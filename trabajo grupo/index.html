@@ -5,19 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafío 24-03-24</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <!-- <link rel="stylesheet" href="./assets/css/desafio.css"> -->
 </head>
 <body>
+    <!--header-->
+    <header>
     <div class="header" style="text-align: center;"><h1> TRABAJO PRACTICO GRUPAL - DESAFIO 27/03/2024</h1></div>
     <div class="menu">
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="#integrantes">Integrantes del equipo</a></li>
-            <li><a href="#descripciondelgrupo">Descripcion del equipo</a></li>
-            <li><a href="#contacto">Contacto</a></li>
+            <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="#integrantes" class="nav-link">Integrantes del equipo</a></li>
+            <li class="nav-item"><a href="#descripciondelgrupo" class="nav-link">Descripcion del equipo</a></li>
+            <li class="nav-item"><a href="#contacto" class="nav-link">Contacto</a></li>
         </ul>
          </div>
+        </header>
+
+
+<!--main-->
         <section id="integrantes" >
             <br>
             <div class="container">  
@@ -32,28 +38,34 @@
                     <p style="text-align: center;">Mi pasión: codear</p>
                     
                 </div>
+
                 <div class="card">
                     <img src="./assets/img/integrante1.jpg" alt="Integrante 1">
-                    <h3 style="text-align: center;">Integrante numero 1</h3>
-                    <p style="text-align: center;">Leonardo</p>
+                    <h3 style="text-align: center;">Integrante numero 2</h3>
+                    <p style="text-align: center;">Dylan</p>
                     <p style="text-align: center;">Mi pasión: codear</p>
                 </div>
+
                 <div class="card">
                     <img src="./assets/img/valenCAC.jpg" alt="Integrante 3">
                     <h3 style="text-align: center;">Integrante numero 3</h3>
                     <p style="text-align: center;">Valentina</p>
                     <p style="text-align: center;">Mi pasión: Hacer música</p>
                 </div>
+
                 <div class="card">
                     <img src="./assets/img/integrante1.jpg" alt="Integrante 1">
                     <h3 style="text-align: center;">Integrante numero 1</h3>
                     <p style="text-align: center;">Leonardo</p>
                     <p style="text-align: center;">Mi pasión: codear</p>
                 </div>
+
             </div>
         </div>
 </section>
 <br>
+
+<!--descr del grupo-->
 <section id="descripciondelgrupo" >
     <br>
     <div class="container">  
@@ -64,6 +76,8 @@
     </h3>
     <br>
      
+
+<!--lista de razones-->
 <ol>
 <li style="text-align: justify; color:antiquewhite">
     **Amplias oportunidades laborales**: Java es uno de los lenguajes de programación más populares y demandados en la industria, especialmente en el desarrollo de aplicaciones web. Dominar el stack completo les abrirá puertas a una amplia gama de oportunidades laborales.
@@ -91,7 +105,7 @@
 <br>
 
 
-
+<!--resumen-->
 <h2 class="cubo">
     En resumen, estudiar full stack Java ofrece a tus estudiantes la oportunidad de adquirir habilidades técnicas sólidas, acceder a un amplio abanico de oportunidades laborales y contribuir al desarrollo de aplicaciones web modernas y escalables.
 </h2>
@@ -102,6 +116,8 @@
 
 </section>
 
+
+<!--formulario-->
 <section id="contacto" >
 
     <br>
@@ -111,21 +127,30 @@
     
         <h2 style="color:antiquewhite">Formulario de Contacto</h2>
         <br>
+
         <form id="contact-form" action="#" method="POST">
           <div class="form-group">
+            <label for="nombre">Nombre:</label>
             <input type="text" id="nombre" name="nombre" placeholder="Nombre" required>
           </div>
           <div class="form-group">
+            <label for="nombre">Apellido:</label>
             <input type="text" id="apellido" name="apellido" placeholder="Apellido" required>
           </div>
           <div class="form-group">
+            <label for="telefono">Telefono:</label>
             <input type="tel" id="telefono" name="telefono" placeholder="Teléfono" required>
           </div>
           <div class="form-group">
-            <input type="email" id="correo" name="correo" placeholder="Correo Electrónico" required>
+            <label for="email">Email:</label>
+            <input type="email" id="correo" name="correo" placeholder="Mail" required>
           </div>
+
           <div class="form-group">
-            <button type="submit" class="btn-submit">Enviar</button>
+
+            <input type="submit" value="Enviar">
+
+            <input type="reset" value="Limpiar">
           </div>
         </form>
       </div>
@@ -133,5 +158,12 @@
 
 </div>
 </section>
+
+<!--footer-->
+
+
+
+
+
 </body>
 </html>
