@@ -80,7 +80,7 @@ body {
     position: sticky;
     top: 0px;
     background-color: var(--bs-orange);
-    padding: .5rem;
+    padding: 1.5rem;
 }
 
 .menu li {
@@ -157,6 +157,11 @@ body {
     font-weight: 400;
     color: var(--bs-gray-100);
 
+  }
+
+  .card:hover {
+    background-color: var(--bs-orange);
+    transform: scale(1.2);
   }
 
   .container1 {
